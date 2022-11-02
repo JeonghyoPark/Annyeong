@@ -30,15 +30,15 @@ function renderQuote() {
     });
 }
 
-// 랜덤 사진 꾸미기
-function renderRandomImage() {
-  let imageList = [];
-  // 이미지 개수를 변경하려면 i=5의 값을 이미지 개수만큼 바꿔주세요!
-  for (i = 0; i < 1; i++) {
-    imageList.push(i);
-  }
-  let imageListLength = imageList.length;
-  let randomImage = Math.floor(Math.random() * (imageListLength))+1
-  randomImage = `images/${randomImage}.jpg`
-  $(document.body).css("background-image", `url(${randomImage})`);
-}
+// // 랜덤 사진 꾸미기
+// function renderRandomImage() {
+//   let imageList = [];
+//   // 이미지 개수를 변경하려면 i=5의 값을 이미지 개수만큼 바꿔주세요!
+//   for (i = 0; i < 1; i++) {
+//     imageList.push(i);
+//   }
+//   let imageListLength = imageList.length;
+//   let randomImage = Math.floor(Math.random() * (imageListLength))+1
+//   randomImage = `images/${randomImage}.jpg`
+//   $(document.body).css("background-image", `url(${randomImage})`);
+// }
